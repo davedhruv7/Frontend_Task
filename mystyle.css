@@ -1,0 +1,159 @@
+.greentext{
+    color: rgb(76, 211, 42);
+}
+.greenbg{
+    color: white;
+    background-color: rgb(76, 211, 42);
+}
+
+.greenbghover:hover{
+    color: white;
+    background-color: rgb(76, 211, 42);
+}
+
+.img{
+    height: 90vh;
+}
+@media (min-width:100px) and (max-width:1200px) {
+    .img{
+        height: auto;
+    }
+}
+
+.bordercolor{
+    border-top: 5px solid rgb(76, 211, 42);
+}
+
+.borderbtncolor{
+    border: 2px solid rgb(76, 211, 42);
+}
+
+.borderbtncolor:hover{
+    background-color: rgb(76, 211, 42);
+}
+
+.flexr{
+    /* position: absolute; */
+    margin-right: 100px;
+}
+.flexl{
+    position: absolute;
+    right: 20%;
+}
+
+@media (max-width:1000px) and (min-width:200px) {
+    .flexr{
+    margin: auto;
+    }
+    .flexl{
+        position: static;
+        /* display: none; */
+        
+    }
+    .main{
+        overflow-x: hidden;
+    }
+    
+}
+
+.uline{
+border-bottom: 3px solid rgb(76, 211, 42);
+padding: 0 0 15px;
+}
+.hover-zoom:hover{
+    transform: scale(1.05);
+}
+.hover-zoom{
+    transition: transform .4s; 
+    cursor: pointer;
+    
+}
+.btnhover{
+    background-color: rgb(76, 211, 42);
+    color: white;
+}
+.btnhover:hover{
+    background-color: rgb(45, 167, 15);
+    color: white;
+}
+.green{
+    color: rgb(45, 167, 15);
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link:hover{
+    color: rgb(45, 167, 15);
+}
+
+/* @keyframes fade-in {
+    from{
+        opacity: 0;
+        scale: 0.4;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.card{
+    animation: fade-in linear;
+    animation-timeline: view(100px); 
+} */
+
+.sticky{
+    position: sticky;
+}
+
+.scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background-color: var(--accent-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text-gray{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.text-gray:hover{
+    color: rgb(45, 167, 15);
+    border-color: rgb(45, 167, 15);
+
+}
+
+.text-gray-less{
+    color: gray;
+}
+
+.text-gray-less:hover{
+    color: rgb(45, 167, 15);
+
+}
+
+.abtgreen{
+    color: black;
+}
+
+.abtgreen:hover{
+    color: rgb(45, 167, 15);
+    background-color: white;
+}
